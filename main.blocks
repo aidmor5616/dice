@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="yr@K3fpNPv4?pI(Gt3yZ">dice</variable></variables><block type="device_gesture_event" id="`N*G$N?/p^=nyf1sPs2U" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="W!s|RpxIc1}WSIQ1Liy~"><field name="VAR" id="yr@K3fpNPv4?pI(Gt3yZ">dice</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="FaZ1xWDQj00ek:?Y6Aw("><value name="min"><shadow type="math_number" id="xt#a/l5K6ya(@Ye3Rhu{"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="Sb0d1@*r~Z10lFNNXYwU"><field name="NUM">6</field></shadow></value></block></value><next><block type="controls_if" id="GK[F5(Q~Li72(r`6g0Rz"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="fn-2B5c,s%aB/J_*@2zz"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="[,J!b=zj)R,@mCS4WbC0"><field name="VAR" id="yr@K3fpNPv4?pI(Gt3yZ">dice</field></block></value><value name="B"><shadow type="math_number" id="+1s(mpk6$kDV(bwLA%ZO"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="(ISI?e$]q)gBMf[~Fjd^"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="0AL3@iNYMAvJi~87+m.q"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
